@@ -50,7 +50,7 @@ Container signInSignUpButton(
         onTap();
       },
       child: Text(
-        isLogin ? 'SIGN IN' : 'SIGN UP',
+        isLogin ? 'MASUK' : 'DAFTAR',
         style: const TextStyle(
             color: Colors.black87, fontWeight: FontWeight.bold, fontSize: 16),
       ),
