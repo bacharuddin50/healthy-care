@@ -37,3 +37,6 @@ TextField textField(String text, IconData icon, bool isPasswordType,
         : TextInputType.emailAddress,
   );
 }
+
+Container signInSignUpButton(
+    BuildContext context, bool isLogin, Function onTap) {}
