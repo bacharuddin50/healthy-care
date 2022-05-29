@@ -43,8 +43,11 @@ class _SignInScreenState extends State<SignInScreen> {
                 SizedBox(
                   height: 20,
                 ),
-                textField("Masukka Password", Icons.lock_outline, true,
-                    passwordTextController)
+                textField("Masukkan Password", Icons.lock_outline, true,
+                    passwordTextController),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),
