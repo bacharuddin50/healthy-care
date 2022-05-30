@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 
-Image logo(String imageName) {
-  return Image.asset(
-    imageName,
-    fit: BoxFit.fitWidth,
-    width: 240,
-    height: 240,
+ClipRRect logo(String imageName) {
+  return ClipRRect(
+    borderRadius: BorderRadius.circular(20),
+    child: Image.asset(
+      "assets/images/logo.jpg",
+      width: 240,
+      height: 240,
+      fit: BoxFit.cover,
+    ),
   );
 }
 
