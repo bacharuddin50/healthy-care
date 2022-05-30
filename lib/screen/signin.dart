@@ -21,14 +21,10 @@ class _SignInScreenState extends State<SignInScreen> {
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         decoration: BoxDecoration(
-            gradient: LinearGradient(
-          colors: [
-            Color(0xFF2D31FA),
-            Color(0xFF5D8BF4),
-          ],
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
-        )),
+            gradient: LinearGradient(colors: [
+          Color(0xFF2D31FA),
+          Color(0xFF5D8BF4),
+        ], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
         child: SingleChildScrollView(
           child: Padding(
             padding: EdgeInsets.fromLTRB(
