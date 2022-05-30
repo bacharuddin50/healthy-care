@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:healthy_care/screen/home.dart';
 import 'package:healthy_care/widgets/widget.dart';
 
 class SignUpScreen extends StatefulWidget {
@@ -59,7 +60,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 ),
                 signInSignUpButton(context, false, () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: ((context) => HomeScreen)));
+                      MaterialPageRoute(builder: ((context) => HomeScreen())));
                 })
               ],
             ),
