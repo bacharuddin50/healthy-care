@@ -44,7 +44,7 @@ TextField textField(String text, IconData icon, bool isPasswordType,
 Container signInSignUpButton(
     BuildContext context, bool isLogin, Function onTap) {
   return Container(
-    width: MediaQuery.of(context).size.width,
+    width: 100,
     height: 50,
     margin: const EdgeInsets.fromLTRB(0, 10, 0, 20),
     decoration: BoxDecoration(borderRadius: BorderRadius.circular(90)),
