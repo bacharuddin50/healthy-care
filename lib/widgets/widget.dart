@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 
-ClipRRect logo(String imageName) {
+ClipRRect logo() {
   return ClipRRect(
     borderRadius: BorderRadius.circular(20),
-    child: Image.asset(
-      "assets/images/logo.jpg",
+    child: CachedNetworkImage(
+      imageUrl:
+          "https://e7.pngegg.com/pngimages/127/557/png-clipart-hospital-computer-icons-health-care-medicine-hospital-logo-medicine-thumbnail.png",
       width: 240,
       height: 240,
       fit: BoxFit.cover,
