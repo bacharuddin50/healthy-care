@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:healthy_care/screen/profile.dart';
 import 'package:healthy_care/screen/signin.dart';
 
 void main() {
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const SignInScreen(),
+      home: const ProfileScreen(),
     );
   }
 }
